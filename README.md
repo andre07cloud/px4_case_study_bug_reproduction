@@ -16,6 +16,7 @@ Our study aims to assist researchers and practitioners in gaining a better under
   - [bug-20260](#bug-20260)
         - [Step to Reproduce](#step-to-reproduce)
 
+
 ## Prérequis
 
 - [Nom du logiciel] version x.x.x
@@ -48,8 +49,7 @@ Our study aims to assist researchers and practitioners in gaining a better under
 | Bug Description      | When running takeoff in SITL without QGC running, the plane immediately goes into failsafe, goes into RTL and then crases                                 |
 | Expexted Behavior    | When takeoff command is done in gazebo simulator, the plane must takeoff normaly.                                 |
 | Observed Behavior    | The first time that takeoff command is done, the plane drone tries to takeoff, but fails after a little distance on the ground.                                 |
-| Output               | Here the output is the behavior of the
-vehicle observed in the gazebo inteface.                                 |
+| Output               | Here the output is the behavior of the vehicle observed in the gazebo inteface.                                 |
 ##### Step to Reproduce
 
 
