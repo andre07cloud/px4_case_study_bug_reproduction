@@ -41,4 +41,5 @@ Our study aims to assist researchers and practitioners in gaining a better under
 - [bug #20260](./bug_20260.md)
 - [bug #20477](./bug_20477.md)
 - [bug #18574](./bug_18574.md)
-- [bug #18574](./bug_18573.md)
+- [bug #18573](./bug_18573.md)
+- [bug #18271](./bug_18271.md)
