@@ -17,24 +17,10 @@ Our study aims to assist researchers and practitioners in gaining a better under
 
 ## Prérequis
 
-- [Nom du logiciel] version x.x.x
-- [Dépendance] version x.x.x
-- [Autre dépendance]
 
 ## Installation
 
-1. Clonez le dépôt :
-    ```bash
-    git clone https://github.com/votre-utilisateur/votre-projet.git
-    ```
-2. Naviguez dans le répertoire du projet :
-    ```bash
-    cd votre-projet
-    ```
-3. Installez les dépendances :
-    ```bash
-    pip install -r requirements.txt
-    ```
+
 
 ## Replication:
 
