@@ -39,3 +39,4 @@ Our study aims to assist researchers and practitioners in gaining a better under
 ## Replication:
 
 - [bug #20260](./bug_20260.md)
+- [bug #20477](./bug_20477.md)
