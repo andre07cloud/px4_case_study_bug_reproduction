@@ -1,30 +1,12 @@
 # An exploratory study of bug reproduction in UAVs sytems : PX4 case study
 
 
-The field of unmanned aerial vehicles has seen sig-
-nificant technological advancements over the years, leading to the
-emergence of numerous autopilot software solutions. However,
-like any system, they are prone to operational bugs. To better
-comprehend these bugs, often reported by users, developers must
-be able to replicate them under the same conditions as reported.
+The field of unmanned aerial vehicles has seen significant technological advancements over the years, leading to the emergence of numerous autopilot software solutions. However, like any system, they are prone to operational bugs. To better comprehend these bugs, often reported by users, developers must be able to replicate them under the same conditions as reported.
 The uniqueness of drone systems lies in their dependence on
 hardware interaction for operation, making bug reproduction in
 such environments highly complex.
-While numerous studies have been conducted on bug reproduc-
-tion, there is a gap in research specifically focused on unmanned
-aerial vehicle autopilot systems. To address this gap, we conduct
-an empirical study using an open-source software called PX4 to
-reproduce reported bugs in the GitHub repository. The primary
-objective of this study is to establish a methodology that facilitates
-bug reproduction in autopilot software. From this study, we
-derive 10 key points serving as guidelines for reproducing a
-specific bug in UAV systems. Additionally, we identify three
-major challenges encountered in this task, leverage LLMs to
-assist bug reproduction, and finally employ LLMs to automate
-bug reproduction.
-Our study aims to assist researchers and practitioners in
-gaining a better understanding of bug reproduction in UAV
-systems and enhancing future bug reports in this field
+While numerous studies have been conducted on bug reproduction, there is a gap in research specifically focused on unmanned aerial vehicle autopilot systems. To address this gap, we conduct an empirical study using an open-source software called PX4 to reproduce reported bugs in the GitHub repository. The primary objective of this study is to establish a methodology that facilitates bug reproduction in autopilot software. From this study, we derive 10 key points serving as guidelines for reproducing a specific bug in UAV systems. Additionally, we identify three major challenges encountered in this task, leverage LLMs to assist bug reproduction.
+Our study aims to assist researchers and practitioners in gaining a better understanding of bug reproduction in UAV systems and enhancing future bug reports in this field
 
 ## Table of Contents
 
@@ -32,7 +14,8 @@ systems and enhancing future bug reports in this field
   - [Table of Contents](#table-of-contents)
   - [Prérequis](#prérequis)
   - [Installation](#installation)
-  - [Utilisation](#utilisation)
+  - [Replication](#replication)
+  - [bug-20260](#bug-20260)
 
 ## Prérequis
 
@@ -55,7 +38,23 @@ systems and enhancing future bug reports in this field
     pip install -r requirements.txt
     ```
 
-## Utilisation
+## Replication
+## bug-20260
+| Nom du logiciel | Version requise | Description                 |
+|-----------------|-----------------|-----------------------------|
+| Python          | 3.8+            | Langage de programmation    |
+| pip             | 20.0+           | Gestionnaire de paquets     |
+| numpy           | 1.19+           | Bibliothèque pour calculs   |
+| pandas          | 1.1+            | Outils d'analyse de données |
+    ```
+2. Naviguez dans le répertoire du projet :
+    ```bash
+    cd votre-projet
+    ```
+3. Installez les dépendances :
+    ```bash
+    pip install -r requirements.txt
+
 
 Exécutez le script avec les commandes suivantes :
 
