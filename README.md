@@ -16,9 +16,15 @@ Our study aims to assist researchers and practitioners in gaining a better under
 
 
 ## Prérequis
-
+For any mission configuration and planning in QGroundControl, please refer to the following detailed [tutorial](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/plan_view/plan_view.html#plan_tools).
 
 ## Installation
+
+To get a good configuration PX4 after Checking Out in a branch release, make follwing tasks:
+- Go inside release folder 
+```bash
+    bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+```
 
 
 
