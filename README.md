@@ -21,7 +21,7 @@ For any mission configuration and planning in QGroundControl, please refer to th
 ## Installation
 
 To get a good configuration PX4 after Checking Out in a branch release, make follwing tasks:
-- Go inside release folder 
+- Go inside release folder and run this command
 ```bash
     bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 ```
