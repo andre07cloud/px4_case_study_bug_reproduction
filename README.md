@@ -35,3 +35,4 @@ To get a good configuration PX4 after Checking Out in a branch release, make fol
 - [bug #18574](./bug_18574.md)
 - [bug #18573](./bug_18573.md)
 - [bug #18271](./bug_18271.md)
+- [bug #18576](./bug_18576.md)
